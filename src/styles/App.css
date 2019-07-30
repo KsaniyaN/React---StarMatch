@@ -1,0 +1,76 @@
+h1 {
+	text-align: center;
+}
+
+.game {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.body {
+	display: flex;
+}
+
+.help {
+	color: #666;
+	margin: 10px;
+	text-align: center;
+}
+
+.left {
+	text-align: center;
+	width: 50%;
+	border: thin solid #ddd;
+}
+
+.right {
+	text-align: center;
+	padding: 10px;
+	width: 50%;
+	border: thin solid #ddd;
+}
+
+.star {
+	display: inline-block;
+	margin: 0 15px;
+}
+
+.star:after {
+	content: "\2605";
+	font-size: 45px;
+}
+
+.number {
+	background-color: #eee;
+	border: thin solid #ddd;
+	cursor: pointer;
+	width: 45px;
+	height: 45px;
+	margin: 10px;
+	font-size: 25px;
+}
+
+.number:focus, .number:active {
+	outline: none;
+	border: thin solid #ddd;
+}
+
+.timer {
+	color: #666;
+	margin-top: 3px;
+	margin-left: 3px;
+}
+
+.game-done .message {
+	font-size: 1em;
+	font-weight: bold;
+	margin: 2em 1em;
+	padding: .5em 1em;
+}
+
+.copy {
+	color: dimgrey;
+	font-size: .8em;
+	font-style: italic;
+	margin-top: 2.5em;
+}
