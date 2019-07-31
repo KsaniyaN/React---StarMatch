@@ -4,8 +4,7 @@ import PlayNumber from './PlayNumber';
 import StarsDisplay from './StarsDisplay';
 import PlayAgain from './PlayAgain';
 
-const StarMatch = () => {
-	// initial state
+const Game = (props) => {
 	const [stars, setStars] = useState(utils.random(1, 9));
 	const [availableNums, setAvailableNums] = useState(utils.range(1, 9));
 	const [candidateNums, setCandidateNums] = useState([]);
@@ -33,14 +32,6 @@ const StarMatch = () => {
 			? 'lost'
 			: 'active';
 
-	const resetGame = () => {
-		setStars(utils.random(1, 9));
-		setAvailableNums(utils.range(1, 9));
-		setCandidateNums([]);
-		setSecondsLeft(defaultTimer);
-	};
-
-	// updating UI
 	const numberStatus = (number) => {
 		if (!availableNums.includes(number)) {
 			return 'used';
@@ -51,7 +42,6 @@ const StarMatch = () => {
 		return 'available'
 	};
 
-	// currentStatus => newStatus
 	const onNumberClick = (number, currentStatus) => {
 		if (gameStatus !== 'active' || currentStatus === 'used') {
 			return;
@@ -86,8 +76,8 @@ const StarMatch = () => {
 			<div className="body">
 				<div className="left">
 					{gameStatus !== 'active' ? (
-						<PlayAgain onClick={resetGame} gameStatus={gameStatus}/>
-					) : (
+						<PlayAgain onClick={props.startNewGame} gameStatus={gameStatus}/>
+						) : (
 						<StarsDisplay count={stars}/>
 					)}
 				</div>
@@ -110,4 +100,4 @@ const StarMatch = () => {
 	);
 };
 
-export default StarMatch;
+export default Game;

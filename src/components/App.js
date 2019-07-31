@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/App.css';
-import StarMatch from './StarMatch'
+import StarMatch from '../components/StartMatch';
 
 function App() {
   return (
