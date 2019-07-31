@@ -64,7 +64,7 @@ h1 {
 .game-done .message {
 	font-size: 1em;
 	font-weight: bold;
-	margin: 2em 1em;
+	margin: 2em 1em 0;
 	padding: .5em 1em;
 }
 
