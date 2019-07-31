@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/React---StarMatch/static/css/main.49698a61.chunk.css",
-    "main.js": "/React---StarMatch/static/js/main.824f20bd.chunk.js",
-    "main.js.map": "/React---StarMatch/static/js/main.824f20bd.chunk.js.map",
+    "main.css": "/React---StarMatch/static/css/main.ffbb1191.chunk.css",
+    "main.js": "/React---StarMatch/static/js/main.58c5cfcf.chunk.js",
+    "main.js.map": "/React---StarMatch/static/js/main.58c5cfcf.chunk.js.map",
     "runtime~main.js": "/React---StarMatch/static/js/runtime~main.507aa5aa.js",
     "runtime~main.js.map": "/React---StarMatch/static/js/runtime~main.507aa5aa.js.map",
     "static/js/2.c2695c00.chunk.js": "/React---StarMatch/static/js/2.c2695c00.chunk.js",
     "static/js/2.c2695c00.chunk.js.map": "/React---StarMatch/static/js/2.c2695c00.chunk.js.map",
     "index.html": "/React---StarMatch/index.html",
-    "precache-manifest.229f1b328ed3c34963cc5106ae36f3c9.js": "/React---StarMatch/precache-manifest.229f1b328ed3c34963cc5106ae36f3c9.js",
+    "precache-manifest.04189425f379583a76b427f5cd9cf054.js": "/React---StarMatch/precache-manifest.04189425f379583a76b427f5cd9cf054.js",
     "service-worker.js": "/React---StarMatch/service-worker.js",
-    "static/css/main.49698a61.chunk.css.map": "/React---StarMatch/static/css/main.49698a61.chunk.css.map"
+    "static/css/main.ffbb1191.chunk.css.map": "/React---StarMatch/static/css/main.ffbb1191.chunk.css.map"
   }
 }
